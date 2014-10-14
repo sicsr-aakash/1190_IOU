@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+	    android:textColor="#0099CC"
+        android:hint="Mario" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select from Contact"
+        android:background="@color/carrot"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:drawablePadding="20sp" />
+    
+</LinearLayout>

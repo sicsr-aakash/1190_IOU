@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinnerNames"
+        android:layout_width="match_parent"
+        android:layout_height="61dp" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:hint="Amount"
+        android:textSize="30sp"
+    	android:textColor="#0099CC"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:ems="10"
+        android:textSize="30sp"
+    	android:textColor="#0099CC"
+        android:hint="Description" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+		 <Button
+	        android:id="@+id/buttonOweMe"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="You Owe Me"
+	        android:background="@color/green" />
+
+	    <Button
+	        android:id="@+id/buttonOweYou"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="I Owe You"
+	        android:background="@color/red" />       
+    </LinearLayout>
+   
+    
+</LinearLayout>

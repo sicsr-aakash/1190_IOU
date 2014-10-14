@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonViewTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#95a5a6"
+        android:text="@string/buttonViewTransaction"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:drawableLeft="@drawable/ic_action_view_as_list" />
+
+    <Button
+        android:id="@+id/buttonDeletePerson"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#fff"
+        android:background="#2c3e50"
+        android:text="@string/buttonDeletePerson"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/ic_action_remove"
+        android:typeface="monospace" />
+
+</LinearLayout>
